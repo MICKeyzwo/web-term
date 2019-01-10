@@ -1,0 +1,85 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    background: black;
+
+}
+
+.app {
+
+    width: 99.5vw;
+    height: 100vw;
+    overflow-y: visible;
+    overflow-x: hidden;
+
+    .term {
+        
+        background: black;
+        color: white;
+        font: 12pt "Fira Sans", monospace;
+
+        cursor: text;
+
+        width: 100;
+        height: 100%;
+
+    }
+
+}
+
+.promptLine {
+
+    display: flex;
+    width: 100%;
+
+}
+
+.prompt {
+
+    display: block;
+    flex: 0 1 auto;
+
+}
+
+.commandInput {
+
+    display: block;
+    flex: 1 1 auto;
+
+    background: black;
+    border: none;
+    color: white;
+    font: 12pt "Fira Sans", monospace;
+
+}
+
+.number {
+
+    color: #960;
+
+}
+
+.string {
+
+    color: #060;
+
+}
+
+.undefined {
+
+    color: #666;
+
+}
+
+.function {
+
+    color: #066;
+
+}
+
+.null {
+
+    font-weight: bold;
+
+}
